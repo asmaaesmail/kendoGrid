@@ -1,0 +1,21 @@
+$base-color: #1272a9;
+@mixin table-group{
+  color: #ffffff;
+  background-color: $base-color;
+  font-weight: bold;
+}
+.k-table-thead, .k-table-header, .k-table-group-sticky-header {
+    border-color: rgba(0, 0, 0, 0.08);
+   @include table-group;
+  }
+  
+  .k-button-overlay, .k-button::before {
+    border-radius: 50%;
+  }
+  
+  .k-button-flat {
+    &:focus::after, &.k-focus::after {
+      opacity: 0;
+    }
+  }
+  

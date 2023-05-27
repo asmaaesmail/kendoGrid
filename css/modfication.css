@@ -1,0 +1,16 @@
+.k-table-thead, .k-table-header, .k-table-group-sticky-header {
+  border-color: rgba(0, 0, 0, 0.08);
+  color: #ffffff;
+  background-color: #1272a9;
+  font-weight: bold;
+}
+
+.k-button-overlay, .k-button::before {
+  border-radius: 50%;
+}
+
+.k-button-flat:focus::after, .k-button-flat.k-focus::after {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=modfication.css.map */
